@@ -1,0 +1,50 @@
+</profile-group>
+          <external-list>
+            <entry name="Emerging Threats TOR List">
+              <type>
+                <ip>
+                  <recurring>
+                    <five-minute/>
+                  </recurring>
+                  <url>http://raw.githubusercontent.com/jtschichold/panwdbl-actions/tor/exit-nodes.txt</url>
+                  <description>Emerging Threats Tor rules. See http://doc.emergingthreats.net/bin/view/Main/TorRules</description>
+                  <certificate-profile>None</certificate-profile>
+                </ip>
+              </type>
+            </entry>
+            <entry name="Emerging Threats Known Compromised Hosts List">
+              <type>
+                <ip>
+                  <recurring>
+                    <five-minute/>
+                  </recurring>
+                  <url>http://raw.githubusercontent.com/jtschichold/panwdbl-actions/etcompromised/etcompromised.txt</url>
+                  <description>See http://doc.emergingthreats.net/bin/view/Main/CompromisedHost</description>
+                  <certificate-profile>None</certificate-profile>
+                </ip>
+              </type>
+            </entry>
+            <entry name="DShield Recommended Block List">
+              <type>
+                <ip>
+                  <recurring>
+                    <five-minute/>
+                  </recurring>
+                  <url>http://raw.githubusercontent.com/jtschichold/panwdbl-actions/dshield/dshieldbl.txt</url>
+                  <description>DShield.org Recommended Block List. See http://feeds.dshield.org/block.txt</description>
+                  <certificate-profile>None</certificate-profile>
+                </ip>
+              </type>
+            </entry>
+            <entry name="SSL Abuse IP List">
+              <type>
+                <ip>
+                  <recurring>
+                    <five-minute/>
+                  </recurring>
+                  <url>http://raw.githubusercontent.com/jtschichold/panwdbl-actions/sslabuseiplist/sslabuseiplist.txt</url>
+                  <description>SSLBL 30 days block list. See https://sslbl.abuse.ch/blacklist/</description>
+                  <certificate-profile>None</certificate-profile>
+                </ip>
+              </type>
+            </entry>

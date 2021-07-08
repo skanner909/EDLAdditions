@@ -1,0 +1,9 @@
+*.docx
+*.rtf
+gold*
+code*
+doc*
+project*
+REC*
+.DS*
+book*
