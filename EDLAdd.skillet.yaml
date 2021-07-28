@@ -1,10 +1,10 @@
-# skillet preamble information used by panhandler\
+# skillet preamble information used by panhandler
 # ---------------------------------------------------------------------\
-# unique snippet name\
+# unique snippet name
 name: EDLAdditions
-# label used for menu selection\
+# label used for menu selection
 label: EDLAdditions
-description: This skillet adds additional EDLs to the NGFW\
+description: This skillet adds additional EDLs to the NGFW
 
 # type of device configuration
 # common types are panorama, panos, and template
@@ -28,6 +28,6 @@ labels:
 snippets:
   - name: EDLAdditions
     xpath: /config/profile-group/external-list/
-    file: EDLAdditions.xml\
+    file: EDLAdditions.xml
 # ---------------------------------------------------------------------\
 # end of snippets section}
